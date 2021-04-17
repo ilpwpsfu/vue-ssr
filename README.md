@@ -10,7 +10,7 @@ or
 npm run serve
 ```
 
-### build a production version
+### build for production
 ```
 yarn build
 ```

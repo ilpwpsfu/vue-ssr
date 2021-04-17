@@ -1,19 +1,29 @@
 # vue-ssr
 Vue SSR+Vuex+Router+Scss+Pug+Express
 
-<yarn serve>
+```
+yarn serve
+```
 or
-<npm run serve>
+```
+npm run serve
+```
 to start a dev server
 
 ```
 yarn build
 ```
 or
-<npm run build>
+```
+npm run build
+```
 to build a production version
 
-<yarn start>
+```
+yarn start
+```
 or
-<npm run start>
+```
+npm run start
+```
 to start a server

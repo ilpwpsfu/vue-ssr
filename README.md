@@ -6,7 +6,9 @@ or
 <npm run serve>
 to start a dev server
 
-  yarn build
+```
+yarn build
+```
 or
 <npm run build>
 to build a production version

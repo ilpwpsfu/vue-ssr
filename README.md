@@ -1,6 +1,7 @@
 # vue-ssr
 Vue SSR+Vuex+Router+Scss+Pug+Express
 
+## start a dev server
 ```
 yarn serve
 ```
@@ -8,8 +9,8 @@ or
 ```
 npm run serve
 ```
-to start a dev server
 
+## build a production version
 ```
 yarn build
 ```
@@ -17,8 +18,8 @@ or
 ```
 npm run build
 ```
-to build a production version
 
+## start a server
 ```
 yarn start
 ```
@@ -26,4 +27,4 @@ or
 ```
 npm run start
 ```
-to start a server
+

@@ -1,0 +1,47 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "npm-run-all": "^4.1.5",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.1.0",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vue-server-renderer": "^2.6.12",
+    "vuex": "^3.6.2",
+    "vuex-router-sync": "^5.0.0",
+    "webpack": "^4.32.2",
+    "webpack-merge": "^5.7.3",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "scripts": {
+    "nodemon": "nodemon index.js",
+    "dev-client": "webpack-dev-server --config src/webpack/config.client.js",
+    "dev-server": "webpack -w --config src/webpack/config.server.js",
+    "serve": "run-p dev-client dev-server nodemon",
+    "clean": "rimraf ./src/webpack/dist/",
+    "build-client": "cross-env NODE_ENV=production webpack --config src/webpack/config.client.js",
+    "build-server": "cross-env NODE_ENV=production webpack --config src/webpack/config.server.js",
+    "build-all": "run-p build-client build-server",
+    "build": "run-s clean build-all",
+    "start": "node index.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "verbose": false,
+    "watch": [
+        "src/webpack/dist/vue-ssr-server-bundle.json",
+        "src/express/*",
+        "src/db/*"
+    ],
+    "ext": "json,js"
+}

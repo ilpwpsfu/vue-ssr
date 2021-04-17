@@ -1,4 +1,4 @@
-# vue-ssr
+# Vue SSR boilerplate
 Vue SSR+Vuex+Router+Scss+Pug+Express
 
 ## start a dev server

@@ -1,7 +1,7 @@
 <template>
     <div>
-        <span>CHECK: {{ fetchedData }}</span>
-        <button v-on:click="fetchData">Получить с сервера</button>
+        <span>Some data: <b>{{ fetchedData }}</b></span>
+        <button v-on:click="fetchData">Fetch the data</button>
     </div>
 </template>
 

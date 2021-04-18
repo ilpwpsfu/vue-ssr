@@ -1,6 +1,6 @@
 export default {
     getData: async () => {
-        const text = 'Данные c пререндера'
+        const text = 'Prerendered Data'
         return { text }
     }
 }

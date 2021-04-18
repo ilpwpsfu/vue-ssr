@@ -1,30 +1,20 @@
 # Vue SSR boilerplate
-Vue SSR+Vuex+Router+Scss+Pug+Express
+* Docker
+* Webpack
+* VueJS
+* Vuex
+* Vue-router
+* Express
+* scss/sass
+* pug
+* dev-server
 
-### start a dev server
-```
-yarn serve
-```
-or
-```
-npm run serve
-```
+VueJS template based on official documentation of Vue SSR.
 
-### build for production
-```
-yarn build
-```
-or
-```
-npm run build
-```
+## Usage
+**npm run serve** - starts a dev-server
+**npm run build** - builds server bundle and client manifest
+**npm run start** - starts a server
 
-### start a server
-```
-yarn start
-```
-or
-```
-npm run start
-```
-
+## Env Vars
+You can predefine your env vars in the .env file as well as in the docker-compose.yaml if you are planning to use docker.

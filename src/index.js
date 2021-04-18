@@ -1,5 +1,5 @@
 const { server } = require('./express')
 
 module.exports = () => {
-    server.listen(25565)
+    server.listen(8080)
 }

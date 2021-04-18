@@ -41,18 +41,18 @@ module.exports = merge(merge(baseConfig, {
 } : {
     output: {
         filename: '[name].js',
-        publicPath: 'http://localhost:25566/dist/',
+        publicPath: 'http://localhost:8081/dist/',
     },
     plugins: [new webpack.HotModuleReplacementPlugin()],
     devtool: 'source-map',
     devServer: {
         writeToDisk: true,
         contentBase: `${ __dirname }/dist`,
-        publicPath: 'http://localhost:25566/dist/',
+        publicPath: 'http://localhost:8081/dist/',
         hot: true,
         inline: true,
         historyApiFallback: true,
-        port: 25566,
+        port: 8081,
         headers: {
             'Access-Control-Allow-Origin': '*',
         },

@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  node-app:
+    build: .
+    restart: always
+    volumes:
+      - ./public:/usr/src/app/public:ro
+      - ./src:/usr/src/app/src:ro
+    ports:
+      - 8080:8080
+    environment:
+      - TZ=Europe/Moscow

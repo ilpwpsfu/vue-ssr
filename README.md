@@ -13,7 +13,9 @@ VueJS template based on official documentation of Vue SSR.
 
 ## Usage
 **npm run serve** - starts a dev-server
+
 **npm run build** - builds server bundle and client manifest
+
 **npm run start** - starts a server
 
 ## Env Vars

@@ -4,7 +4,7 @@
 * VueJS
 * Vuex
 * Vue-router
-* Express
+* ExpressJS
 * scss/sass
 * pug
 * dev-server

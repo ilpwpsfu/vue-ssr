@@ -23,7 +23,7 @@ server.disable('x-powered-by')
 server.use('/api', api)
 
 server.get('/*', async (req, res) => {
-    const context = { title: 'LANDOS', url: req.url }
+    const context = { title: 'Vue SSR Boilerplate', url: req.url }
 
     renderer.renderToString(context, (err, html) => {
         if (err) {

@@ -9,7 +9,7 @@
 * pug
 * dev-server
 
-VueJS template based on official documentation of Vue SSR.
+VueJS template based on official documentation for Vue SSR.
 
 ## Usage
 **npm run serve** - starts a dev-server

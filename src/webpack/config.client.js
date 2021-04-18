@@ -18,7 +18,7 @@ module.exports = merge(merge(baseConfig, {
     plugins: [
         new VueSSRClientPlugin(),
         new webpack.EnvironmentPlugin({
-            CLIENT: true
+            IS_CLIENT_BUILD: true
         })
     ],
 
